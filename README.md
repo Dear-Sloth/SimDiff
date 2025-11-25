@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/ )
 
-🏆 Official implementation for **AAAI 2026** paper: SimDiff: Simpler Yet Better Diffusion Model for Time Series Point Forecasting
+📕 **Official implementation for AAAI 2026 paper**: SimDiff: Simpler Yet Better Diffusion Model for Time Series Point Forecasting
 
 </div>
 
