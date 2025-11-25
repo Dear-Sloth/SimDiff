@@ -11,7 +11,7 @@
 ## 📖 Overview
 
 <div align="center">
-  <img src="assets/main.png" alt="SimDiff Framework Introduction" width="600"/>
+  <img src="assets/main.png" alt="SimDiff Framework Introduction" width="95%"/>
 </div>
 
 Diffusion-based time series forecasters have recently shown strong probabilistic modeling ability, but they still struggle to match regression-style methods on point forecasts: they often lack sufficient contextual bias to track distribution shifts and face a hard trade-off between sample diversity and the stability required for low MSE/MAE. Existing approaches frequently rely on external pre-trained or jointly trained regressors to stabilize training, which complicates the pipeline and sacrifices the generative flexibility that diffusion models should provide. 
@@ -26,52 +26,33 @@ Across nine multivariate benchmarks, SimDiff attains state-of-the-art point fore
 
 
 **Example of Prediction Results**
-<p align="center">
-
-  <div style="display:inline-block; width:30%; text-align:center;">
-    <img src="assets/csdi.png" width="100%">
-    <br>
-    <sub>(a) CSDI</sub>
-  </div>
-
-  <div style="display:inline-block; width:30%; text-align:center;">
-    <img src="assets/timediff.png" width="100%">
-    <br>
-    <sub>(b) TimeDiff</sub>
-  </div>
-
-  <div style="display:inline-block; width:30%; text-align:center;">
-    <img src="assets/simdiff.png" width="100%">
-    <br>
-    <sub>(c) SimDiff</sub>
-  </div>
-
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="assets/csdi.png" width="30%"><br><sub>(a) CSDI</sub></td>
+    <td align="center"><img src="assets/timediff.png" width="30%"><br><sub>(b) TimeDiff</sub></td>
+    <td align="center"><img src="assets/simdiff.png" width="30%"><br><sub>(c) SimDiff</sub></td>
+  </tr>
+</table>
 
 
 **Normalization Independence alleviates OOD**
 
-<p align="center">
-
-  <div style="display:inline-block; width:30%; text-align:center;">
-    <img src="assets/synthetic.png" width="100%">
-    <br>
-    <sub>(a) Synthetic data with OOD</sub>
-  </div>
-
-  <div style="display:inline-block; width:30%; text-align:center;">
-    <img src="assets/toy1.png" width="100%">
-    <br>
-    <sub>(b)  Norm. Independence</sub>
-  </div>
-
-  <div style="display:inline-block; width:30%; text-align:center;">
-    <img src="assets/toy2.png" width="100%">
-    <br>
-    <sub>(c) Z-Score Normalization</sub>
-  </div>
-
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/synthetic.png" width="30%"><br>
+      <sub>(a) Synthetic data with OOD</sub>
+    </td>
+    <td align="center">
+      <img src="assets/toy1.png" width="30%"><br>
+      <sub>(b) Norm. Independence</sub>
+    </td>
+    <td align="center">
+      <img src="assets/toy2.png" width="30%"><br>
+      <sub>(c) Z-Score Normalization</sub>
+    </td>
+  </tr>
+</table>
 
 
 ## 🚀 Quickstart
