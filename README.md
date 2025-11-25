@@ -26,33 +26,17 @@ Across nine multivariate benchmarks, SimDiff attains state-of-the-art point fore
 
 
 **Example of Prediction Results**
-<table>
-  <tr>
-    <td align="center"><img src="assets/csdi.png" width="30%"><br><sub>(a) CSDI</sub></td>
-    <td align="center"><img src="assets/timediff.png" width="30%"><br><sub>(b) TimeDiff</sub></td>
-    <td align="center"><img src="assets/simdiff.png" width="30%"><br><sub>(c) SimDiff</sub></td>
-  </tr>
-</table>
+
+<div align="center">
+  <img src="assets/result.png" alt="Example of Prediction Results" width="100%"/>
+</div>
 
 
-**Normalization Independence alleviates OOD**
+**Normalization Independence Alleviates OOD**
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/synthetic.png" width="30%"><br>
-      <sub>(a) Synthetic data with OOD</sub>
-    </td>
-    <td align="center">
-      <img src="assets/toy1.png" width="30%"><br>
-      <sub>(b) Norm. Independence</sub>
-    </td>
-    <td align="center">
-      <img src="assets/toy2.png" width="30%"><br>
-      <sub>(c) Z-Score Normalization</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="assets/ni.png" alt="Normalization Independence Alleviates OOD" width="100%"/>
+</div>
 
 
 ## 🚀 Quickstart
