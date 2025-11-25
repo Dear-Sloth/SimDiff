@@ -2,7 +2,7 @@
 
 # SimDiff: Simpler Yet Better Diffusion Model for Time Series Point Forecasting
 
-[![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/ )
+[![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.19256)
 
 📕 **Official implementation for AAAI 2026 paper**: SimDiff: Simpler Yet Better Diffusion Model for Time Series Point Forecasting
 
@@ -78,14 +78,14 @@ Special thanks to the codebase/repository and the developers of [TimesNet](https
 ## ✍️ Citation
 If you use our work or are inspired by our work, please consider cite us:
 ```
-@misc{ ,
+@misc{ding2025simdiffsimplerbetterdiffusion,
       title={SimDiff: Simpler Yet Better Diffusion Model for Time Series Point Forecasting}, 
-      author={Hang Ding,},
+      author={Hang Ding and Xue Wang and Tian Zhou and Tao Yao},
       year={2025},
-      eprint={2511. },
+      eprint={2511.19256},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2511. }, 
+      url={https://arxiv.org/abs/2511.19256}, 
 }
 ```
 
